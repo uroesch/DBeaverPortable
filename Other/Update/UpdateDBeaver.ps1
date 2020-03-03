@@ -1,9 +1,9 @@
 $AppRoot        = "$PSScriptRoot\..\.."
 $AppInfoIni     = "$AppRoot\App\AppInfo\appinfo.ini"
-$PackageVersion = '6.3.5.0'
-$DisplayVersion = '6.3.5-beta1-uroesch'
-$ZipVersion     = '6.3.5'
-$Archive64URL   = "https://dbeaver.io/files/6.3.5/dbeaver-ce-$ZipVersion-win32.win32.x86_64.zip"
+$PackageVersion = '7.0.0.0'
+$DisplayVersion = '7.0.0-beta2-uroesch'
+$ZipVersion     = '7.0.0'
+$Archive64URL   = "https://dbeaver.io/files/$ZipVersion/dbeaver-ce-$ZipVersion-win32.win32.x86_64.zip"
 $TargetDir64    = 'DBeaver'
 $ExtractDir64   = 'DBeaver'
 
