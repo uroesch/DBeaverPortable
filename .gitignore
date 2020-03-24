@@ -1,5 +1,4 @@
 *.exe
-Data/
+Data
 App/DBeaver
-!Other/Update/*.ps1
-Other/Update/*
+Download
