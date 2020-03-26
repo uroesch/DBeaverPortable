@@ -43,11 +43,11 @@ ${SegmentInit}
 	${ReadLauncherConfig} $JavaMode Activate Java
 	${If} $JavaMode == find
 	${OrIf} $JavaMode == require
-		${If} $Bits == 64
+		${If} $Bits != 64
+			MessageBox MB_OK|MB_ICONSTOP "This version of DBeaver requires a 64bit runtime environment."
+			Quit
+		${Else}
 			${FindCommonJavaDirectory} '64'
-		${EndIf}
-		${If} $JavaDirectory == ''
-			${FindCommonJavaDirectory} ''
 		${EndIf}
 		${IfNot} ${FileExists} $JavaDirectory
 			ClearErrors
