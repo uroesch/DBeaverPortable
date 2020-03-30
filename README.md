@@ -29,6 +29,18 @@ monitoring database connection sessions, and a lot more.
   [JDK 64](https://portableapps.com/apps/utilities/jdkportable64) 
   
 
+## Support matrix
+
+| OS              | 32-bit             | 64-bit              | 
+|-----------------|:------------------:|:-------------------:|
+| Windows XP      | :no_entry_sign:    | :question:          | 
+| Windows Vista   | :no_entry_sign:    | :white_check_mark:  | 
+| Windows 7       | :no_entry_sign:    | :white_check_mark:  |  
+| Windows 8       | :no_entry_sign:    | :white_check_mark:  | 
+| Windows 10      | :no_entry_sign:    | :heavy_check_mark:  |
+
+Legend: :no_entry_sign: not supported;  :question: no data; :white_check_mark: supposed to work but not verified; :heavy_check_mark: verified;
+
 ## Status 
 This PortableApps project is in beta stage. 
 
