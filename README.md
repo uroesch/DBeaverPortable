@@ -27,19 +27,18 @@ monitoring database connection sessions, and a lot more.
   [OpenJDK 64](https://portableapps.com/apps/utilities/OpenJDK64),
   [JRE 64](https://portableapps.com/apps/utilities/java_portable_64) or
   [JDK 64](https://portableapps.com/apps/utilities/jdkportable64) 
-  
 
 ## Support matrix
 
 | OS              | 32-bit             | 64-bit              | 
 |-----------------|:------------------:|:-------------------:|
-| Windows XP      | :no_entry_sign:    | :question:          | 
-| Windows Vista   | :no_entry_sign:    | :white_check_mark:  | 
-| Windows 7       | :no_entry_sign:    | :white_check_mark:  |  
-| Windows 8       | :no_entry_sign:    | :white_check_mark:  | 
-| Windows 10      | :no_entry_sign:    | :heavy_check_mark:  |
+| Windows XP      | ![ns][ns]          | ![nd][nd]           | 
+| Windows Vista   | ![ns][ns]          | ![ps][ps]           | 
+| Windows 7       | ![ns][ns]          | ![ps][ps]           |  
+| Windows 8       | ![ns][ns]          | ![ps][ps]           |  
+| Windows 10      | ![ns][ns]          | ![fs][fs]           |
 
-Legend: :no_entry_sign: not supported;  :question: no data; :white_check_mark: supposed to work but not verified; :heavy_check_mark: verified;
+Legend: ![ns][ns] not supported;  ![nd][nd] no data; ![ps][ps] supported but not verified; ![fs][fs] verified;`
 
 ## Status 
 This PortableApps project is in beta stage. 
@@ -63,3 +62,8 @@ To build the installer run the following command in the root of the git reposito
 ```
 powershell Other/Update/Update.ps1
 ```
+
+[nd]: Other/Icons/no_data.svg
+[ns]: Other/Icons/no_support.svg
+[ps]: Other/Icons/probably_supported.svg
+[fs]: Other/Icons/full_support.svg
