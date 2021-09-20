@@ -38,8 +38,9 @@ monitoring database connection sessions, and a lot more.
 | Windows 7       | ![ns][ns]          | ![ps][ps]           |  
 | Windows 8       | ![ns][ns]          | ![ps][ps]           |  
 | Windows 10      | ![ns][ns]          | ![fs][fs]           |
+| Windows 11      | ![na][na]          | ![ps][ps]           |
 
-Legend: ![ns][ns] not supported;  ![nd][nd] no data; ![ps][ps] supported but not verified; ![fs][fs] verified;`
+Legend: ![ns][ns] not supported; ![na][na] not applicable; ![nd][nd] no data; ![ps][ps] supported but not verified; ![fs][fs] verified;
 
 ## Status 
 This PortableApps project is in beta stage. 
@@ -214,6 +215,7 @@ pwsh Other/Update/Update.ps1
 <!-- End include BUILD.md -->
 
 [nd]: Other/Icons/no_data.svg
+[na]: Other/Icons/not_applicable.svg
 [ns]: Other/Icons/no_support.svg
 [ps]: Other/Icons/probably_supported.svg
 [fs]: Other/Icons/full_support.svg
