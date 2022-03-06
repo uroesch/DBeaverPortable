@@ -1,4 +1,5 @@
-[![Build](https://github.com/uroesch/DBeaverPortable/workflows/build-package/badge.svg)](https://github.com/uroesch/DBeaverPortable/actions?query=workflow%3Abuild-package)
+[![Build](https://github.com/uroesch/DBeaverPortable/workflows/build-linux/badge.svg)](https://github.com/uroesch/DBeaverPortable/actions?query=workflow%3Abuild-linux)
+[![Build](https://github.com/uroesch/DBeaverPortable/workflows/build-windows/badge.svg)](https://github.com/uroesch/DBeaverPortable/actions?query=workflow%3Abuild-windows)
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/uroesch/DBeaverPortable?include_prereleases)](https://github.com/uroesch/DBeaverPortable/releases)
 [![Runs on](https://img.shields.io/badge/runs%20on-Win64-blue)](#runtime-dependencies)
 [![Depends on](https://img.shields.io/badge/depends%20on-Java-blue)](https://portableapps.com/apps/utilities/OpenJDKJRE64)
