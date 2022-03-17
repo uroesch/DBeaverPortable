@@ -9,17 +9,17 @@
 
 <img src="App/AppInfo/appicon_128.png" align=left>
 
-[DBeaver Community Edition](https://dbeaver.io) is a free multi-platform 
-database tool for developers, database administrators, analysts and all 
-people who need to work with databases. Supports all popular databases: 
-MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, 
+[DBeaver Community Edition](https://dbeaver.io) is a free multi-platform
+database tool for developers, database administrators, analysts and all
+people who need to work with databases. Supports all popular databases:
+MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access,
 Teradata, Firebird, Apache Hive, Phoenix, Presto, etc.
 
-With DBeaver you are able to manipulate your data like in a regular 
-spreadsheet, create analytical reports based on records from different 
-data storages, export information in an appropriate format. For advanced 
-database users DBeaver suggests a powerful SQL-editor, plenty of 
-administration features, abilities of data and schema migration, 
+With DBeaver you are able to manipulate your data like in a regular
+spreadsheet, create analytical reports based on records from different
+data storages, export information in an appropriate format. For advanced
+database users DBeaver suggests a powerful SQL-editor, plenty of
+administration features, abilities of data and schema migration,
 monitoring database connection sessions, and a lot more.
 
 ## Runtime dependencies
@@ -28,25 +28,25 @@ monitoring database connection sessions, and a lot more.
   [OpenJDK JRE 64](https://portableapps.com/apps/utilities/OpenJDKJRE64),
   [OpenJDK 64](https://portableapps.com/apps/utilities/OpenJDK64),
   [JRE 64](https://portableapps.com/apps/utilities/java_portable_64) or
-  [JDK 64](https://portableapps.com/apps/utilities/jdkportable64) 
+  [JDK 64](https://portableapps.com/apps/utilities/jdkportable64)
 
 ## Support matrix
 
-| OS              | 32-bit             | 64-bit              | 
+| OS              | 32-bit             | 64-bit              |
 |-----------------|:------------------:|:-------------------:|
 | ReactOS 0.4.14  | ![ns][ns]          | ![na][na]           |
 | ReactOS 0.4.15  | ![ns][ns]          | ![nd][nd]           |
-| Windows XP      | ![ns][ns]          | ![nd][nd]           | 
-| Windows Vista   | ![ns][ns]          | ![ps][ps]           | 
-| Windows 7       | ![ns][ns]          | ![ps][ps]           |  
-| Windows 8       | ![ns][ns]          | ![ps][ps]           |  
+| Windows XP      | ![ns][ns]          | ![nd][nd]           |
+| Windows Vista   | ![ns][ns]          | ![ps][ps]           |
+| Windows 7       | ![ns][ns]          | ![ps][ps]           |
+| Windows 8       | ![ns][ns]          | ![ps][ps]           |
 | Windows 10      | ![ns][ns]          | ![fs][fs]           |
 | Windows 11      | ![na][na]          | ![ps][ps]           |
 
 Legend: ![ns][ns] not supported; ![na][na] not applicable; ![nd][nd] no data; ![ps][ps] supported but not verified; ![fs][fs] verified;
 
-## Status 
-This PortableApps project is in beta stage. 
+## Status
+This PortableApps project is in beta stage.
 
 ## Todo
 - [ ] Documentation
