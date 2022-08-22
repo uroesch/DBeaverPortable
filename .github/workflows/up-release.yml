@@ -1,0 +1,48 @@
+# -----------------------------------------------------------------------------
+# Build and upload a new release
+# Author: Urs Roesch https://github.com/uroesch
+# Version: 0.1.0
+# -----------------------------------------------------------------------------
+name: up-release
+
+on: workflow_dispatch
+
+jobs:
+  up-release:
+    if: endsWith(github.repository, 'Portable')
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Download build-scripts
+      shell: bash
+      run: |2+
+        mkdir ../scripts &&
+        cd ../scripts &&
+        curl -JLO https://raw.githubusercontent.com/uroesch/PortableApps/master/scripts/up-release.sh &&
+        curl -JLO https://raw.githubusercontent.com/uroesch/PortableApps/master/scripts/docker-build.sh &&
+        curl -JLO https://raw.githubusercontent.com/uroesch/PortableApps/master/scripts/pa-github-release.sh
+
+    - name: Run build script via docker
+      shell: bash
+      run: bash ../scripts/up-release.sh
+      timeout-minutes: 25
+
+    - name: Collect logs on failure
+      if: failure()
+      shell: bash
+      run: |
+        mkdir ../artifacts
+        cp ../PortableApps.com*/Data/*Log.txt ../artifacts
+
+    - name: Upload artifacts on failure
+      if: failure()
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: logs.zip
+        path: ../artifacts
