@@ -130,7 +130,7 @@ image:install_newapp_dialog.png[width="400"]
 
 After a short while the installation dialog will appear.
 
-image:Images/install_newapp_installation.png[width="400"]
+image:install_newapp_installation.png[width="400"]
 
 
 === Install outside of the PortableApps.com Platform
